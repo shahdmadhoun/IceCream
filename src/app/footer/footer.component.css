@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+.text-secondary {
+    color: #62C3E7 !important;
+}
+
+.text-primary {
+    color: #F195B2 !important;
+}
+
+.btn {
+    font-weight: 500;
+    /* padding: 10px 25px; */
+    margin: 5px 5px;
+    border-radius: 100px;
+}
+
+.btn-outline-secondary {
+    color: #62C3E7;
+    border-color: #62C3E7;
+}
+
+a {
+    color: #F195B2;
+    text-decoration: none;
+    background-color: transparent;
+}
