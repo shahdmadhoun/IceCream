@@ -1,0 +1,61 @@
+<div class="container-fluid bg-primary py-3 d-none d-md-block">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 text-center text-lg-left mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center">
+                    <a class="text-white pr-3" href="">FAQs</a>
+                    <a class="text-white px-3" href="">Help</a>
+                    <a class="text-white pl-3" href="">Support</a>
+                </div>
+            </div>
+            <div class="col-md-6 text-center text-lg-right">
+                <div class="d-inline-flex align-items-center">
+                    <a class="text-white px-3" href="">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a class="text-white px-3" href="">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                    <a class="text-white px-3" href="">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                    <a class="text-white px-3" href="">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                    <a class="text-white pl-3" href="">
+                        <i class="fa fa-youtube"></i>                        </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid position-relative nav-bar p-0">
+    <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
+        <nav class="navbar navbar-expand-lg bg-white navbar-light shadow p-lg-0 mb-3">
+            <a href="" class="navbar-brand d-block d-lg-none">
+                <h1 class="m-0 display-4 text-primary">&nbsp;<span class="text-secondary">i</span>CREAM</h1>
+            </a>
+            <button class="navbar-toggler" type="button" (click)="isMenuCollapsed = !isMenuCollapsed">
+                &#9776;
+                </button>
+            <div class="collapse navbar-collapse justify-content-between" 
+            [ngbCollapse]="isMenuCollapsed" id="navbarCollapse">
+                <div class="navbar-nav ml-auto py-0">
+                    <a href="" class="nav-item nav-link active Home">&nbsp;Home&nbsp;</a>
+                    <a href="" class="nav-item nav-link">&nbsp;About&nbsp;</a>
+                    <a href="" class="nav-item nav-link">&nbsp;Product&nbsp;</a>
+                </div>
+                <a href="" class="navbar-brand mx-5 d-none d-lg-block">
+                    <h1 class="m-0 display-4 text-primary"><span class="text-secondary">i</span>CREAM</h1>
+                </a>
+                <div class="navbar-nav mr-auto py-0">
+                    <a href="" class="nav-item nav-link">&nbsp;Service&nbsp;</a>
+                    <a href="" class="nav-item nav-link">&nbsp;Gallery&nbsp;</a>
+                    <a href="" class="nav-item nav-link Contact">&nbsp;Contact&nbsp;</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
