@@ -1,0 +1,62 @@
+.carousel-caption {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.btn {
+    font-weight: 500;
+    padding: 10px 25px;
+    border-radius: 100px;
+}
+
+.btn-primary {
+    background-color: #F195B2;
+    border-color: #F195B2;
+}
+
+.btn-primary:hover {
+    background-color: #f85689;
+    border-color: #f85689;
+
+}
+
+.text-uppercase {
+    text-transform: uppercase !important;
+}
+
+h4 {
+    font-weight: 600 !important;
+}
+
+.p-0 {
+    padding: 0 !important;
+}
+
+.forText {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+@media (min-width: 768px) {
+     .px-md-5 {
+        padding-left: 3rem !important;
+        padding-right: 3rem !important;
+        padding-bottom: 1rem !important;
+        padding-top: 1rem !important;
+
+    }
+}
+
+@media (min-width: 992px) {
+    #header-carousel {
+        margin-top: -80px;
+    }
+}
+
